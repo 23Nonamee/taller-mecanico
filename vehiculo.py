@@ -20,5 +20,10 @@ class Vehiculo:
     
     def tarifa_hora(self) -> int:
         return 5000
+
+    def mostrar_auto(self):
+        print(f"patente: {self.patente}")
+        print(f"anio: {self.anio}")
+        print(f"modelo: {self.modelo}")
      
         
